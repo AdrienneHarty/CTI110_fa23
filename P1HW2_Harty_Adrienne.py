@@ -17,8 +17,8 @@ budget = float(input("What is your budget?"))
 print("Where in the world would you like to visit?")
 destination = input()
 gas = float(input("How much will you spend on gas?"))
-trinkets = float(input("How much will you spend on trinkets?"))
+accomodations = float(input("How much will you spend on accomodations?"))
 food = float(input("How much will you spend on food?"))
-expenses = gas + trinkets + food
+expenses = gas + accomodations + food
 amount = budget - expenses
 print("Your remaining budget amount is:" + str(amount))
